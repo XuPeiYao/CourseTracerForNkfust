@@ -1,0 +1,10 @@
+#miniWindow {
+	position: fixed;
+    bottom: 0;
+	background: black;
+	opacity: 0.8;
+	border: double 4px white;
+	color: #fff;
+	
+	height:150px;
+}
