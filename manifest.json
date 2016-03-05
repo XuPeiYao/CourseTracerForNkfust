@@ -17,13 +17,15 @@
     ],
     "permissions": [
 		"declarativeContent",
-		"tabs",
-		"downloads",
 		"*://aais*.nkfust.edu.tw/"
     ],
-    "icons" : {
-      "48" : "images/icon.png",
-      "128" : "images/icon.png"
-    },
+	"page_action":{
+		"default_icons" : "images/icon.png",
+		"default_title":"CourseTracer for NKFUST™"
+	},
+	"icons" : {
+		"48" : "images/icon.png",
+		"128" : "images/icon.png"
+	},
     "manifest_version": 2
 }
